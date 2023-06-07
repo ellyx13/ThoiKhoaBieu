@@ -1,4 +1,5 @@
 # Thời khoá biểu đăng ký học phần
+![preview](https://github.com/ellyx13/ThoiKhoaBieu/assets/42670522/548e8adb-9911-454b-8228-570b02e17edd)
 # Tính năng
 - Đăng ký học phần
 - Xem tuần tiếp theo và tuần tiếp đó
