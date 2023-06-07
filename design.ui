@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+	background-color: rgb(255, 255, 255);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+	background-color: rgb(255, 255, 255);
+}</string>
+   </property>
+   <widget class="QFrame" name="headerCa">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>76</width>
+      <height>69</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(243, 247, 249);
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="lbCaHoc">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>76</width>
+       <height>69</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(29, 161, 242);
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Ca học&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="headerSang">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>98</y>
+      <width>76</width>
+      <height>350</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(255, 255, 206);
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="lbCaSang">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>76</width>
+       <height>350</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(102, 117, 138);
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Sáng&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="headerChieu">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>447</y>
+      <width>76</width>
+      <height>350</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(255, 255, 206);
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="lbCaChieu">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>76</width>
+       <height>350</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(102, 117, 138);
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Chiều&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="monday">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>30</y>
+      <width>153</width>
+      <height>69</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(243, 247, 249);
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="lbNgayThu2">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>34</y>
+       <width>151</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(29, 161, 242);
+	border: 0px solid black;
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;05/06/2023&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbThu2">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>6</y>
+       <width>151</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(29, 161, 242);
+	border: 0px solid black;
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Thứ 2&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="tuesday">
+    <property name="geometry">
+     <rect>
+      <x>257</x>
+      <y>30</y>
+      <width>153</width>
+      <height>69</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(243, 247, 249);
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="lbNgayThu3">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>34</y>
+       <width>151</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(29, 161, 242);
+	border: 0px solid black;
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;06/06/2023&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbThu3">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>6</y>
+       <width>151</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(29, 161, 242);
+	border: 0px solid black;
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Thứ 3&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="wednesday">
+    <property name="geometry">
+     <rect>
+      <x>409</x>
+      <y>30</y>
+      <width>153</width>
+      <height>69</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(243, 247, 249);
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="lbThu4">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>6</y>
+       <width>151</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(29, 161, 242);
+	border: 0px solid black;
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Thứ 4&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbNgayThu4">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>34</y>
+       <width>151</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(29, 161, 242);
+	border: 0px solid black;
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;07/06/2023&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="thursday">
+    <property name="geometry">
+     <rect>
+      <x>561</x>
+      <y>30</y>
+      <width>153</width>
+      <height>69</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(243, 247, 249);
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="lbThu5">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>6</y>
+       <width>151</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(29, 161, 242);
+	border: 0px solid black;
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Thứ 5&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbNgayThu5">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>34</y>
+       <width>151</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(29, 161, 242);
+	border: 0px solid black;
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;08/06/2023&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="friday">
+    <property name="geometry">
+     <rect>
+      <x>713</x>
+      <y>30</y>
+      <width>153</width>
+      <height>69</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(243, 247, 249);
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="lbThu6">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>6</y>
+       <width>151</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(29, 161, 242);
+	border: 0px solid black;
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Thứ 6&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbNgayThu6">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>34</y>
+       <width>151</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(29, 161, 242);
+	border: 0px solid black;
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;09/06/2023&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="saturday">
+    <property name="geometry">
+     <rect>
+      <x>865</x>
+      <y>30</y>
+      <width>153</width>
+      <height>69</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(243, 247, 249);
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="lbThu7">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>6</y>
+       <width>151</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(29, 161, 242);
+	border: 0px solid black;
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Thứ 7&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbNgayThu7">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>34</y>
+       <width>151</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(29, 161, 242);
+	border: 0px solid black;
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;10/06/2023&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="sunday">
+    <property name="geometry">
+     <rect>
+      <x>1017</x>
+      <y>30</y>
+      <width>153</width>
+      <height>69</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(243, 247, 249);
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="lbChuNhat">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>6</y>
+       <width>151</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(29, 161, 242);
+	border: 0px solid black;
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Chủ nhật&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbNgayChuNhat">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>34</y>
+       <width>151</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(29, 161, 242);
+	border: 0px solid black;
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;11/06/2023&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="sangThu2">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>98</y>
+      <width>153</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame
+{
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="sangThu3">
+    <property name="geometry">
+     <rect>
+      <x>257</x>
+      <y>98</y>
+      <width>153</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame
+{
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="sangThu4">
+    <property name="geometry">
+     <rect>
+      <x>409</x>
+      <y>98</y>
+      <width>153</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame
+{
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="sangThu5">
+    <property name="geometry">
+     <rect>
+      <x>561</x>
+      <y>98</y>
+      <width>153</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame
+{
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="sangThu6">
+    <property name="geometry">
+     <rect>
+      <x>713</x>
+      <y>98</y>
+      <width>153</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame
+{
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="sangThu7">
+    <property name="geometry">
+     <rect>
+      <x>865</x>
+      <y>98</y>
+      <width>153</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame
+{
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="sangChuNhat">
+    <property name="geometry">
+     <rect>
+      <x>1017</x>
+      <y>98</y>
+      <width>153</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame
+{
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="chieuThu4">
+    <property name="geometry">
+     <rect>
+      <x>409</x>
+      <y>447</y>
+      <width>153</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame
+{
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="chieuThu6">
+    <property name="geometry">
+     <rect>
+      <x>713</x>
+      <y>447</y>
+      <width>153</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame
+{
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="chieuThu7">
+    <property name="geometry">
+     <rect>
+      <x>865</x>
+      <y>447</y>
+      <width>153</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame
+{
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="chieuThu3">
+    <property name="geometry">
+     <rect>
+      <x>257</x>
+      <y>447</y>
+      <width>153</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame
+{
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="chieuThu2">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>447</y>
+      <width>153</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame
+{
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="chieuChuNhat">
+    <property name="geometry">
+     <rect>
+      <x>1017</x>
+      <y>447</y>
+      <width>153</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame
+{
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="chieuThu5">
+    <property name="geometry">
+     <rect>
+      <x>561</x>
+      <y>447</y>
+      <width>153</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame
+{
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="maLHP">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>819</y>
+      <width>235</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	border: 1px solid rgb(221,221,221);
+}</string>
+    </property>
+    <property name="acceptRichText">
+     <bool>true</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Nhập mã lớp học phần</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnDangKy">
+    <property name="geometry">
+     <rect>
+      <x>281</x>
+      <y>819</y>
+      <width>117</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(29, 161, 242);
+	color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Đăng ký</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnXemFullMon">
+    <property name="geometry">
+     <rect>
+      <x>692</x>
+      <y>819</y>
+      <width>176</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(29, 161, 242);
+	color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Xem full môn</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnTruoc">
+    <property name="geometry">
+     <rect>
+      <x>901</x>
+      <y>819</y>
+      <width>117</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(29, 161, 242);
+	color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Trước</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnTiep">
+    <property name="geometry">
+     <rect>
+      <x>1052</x>
+      <y>819</y>
+      <width>117</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(29, 161, 242);
+	color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Tiếp</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
